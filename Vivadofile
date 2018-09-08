@@ -15,12 +15,16 @@ bit_dir=./build
 #     "mod1:constraint/mod1.vwc"
 # )
 top_modules=(
-
+    "mdisp_test:constraint/mdisptest.xdc"
+    "hdisp_test:constraint/hdisptest.xdc"
+    "maccu_test:constraint/maccutest.xdc"
+    "maccumulator:constraint/mdisptest.xdc"
+    "seller:constraint/seller.xdc"
 )
 
 # Your default top_module. Maybe override by commandline option.
 # top_module=test_main
-top_module=
+top_module=seller
 
 # Name of your board in vivado. HUST uses 'xc7a100tcsg324-1' by default.
 board="xc7a100tcsg324-1"
@@ -33,4 +37,4 @@ board="xc7a100tcsg324-1"
 # vivado_exec="/path/to/vivado"
 
 # It's recommanded to set thread_num to cores of your CPU.
-# thread_num=4
+thread_num=6
