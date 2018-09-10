@@ -1,0 +1,96 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 14981
+
+Current time: 	9/10/18 9:59:40 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: NAME="Arch Linux"
+Version: 4.18.5-arch1-1-ARCH
+Architecture: amd64
+Available processors (cores): 6
+
+DISPLAY: :0
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	/sdcard/Xilinx/Vivado/2015.2/tps/lnx64/jre
+
+User name: 	imzhwk
+User directory: /macos/VivadoProjects/automatic-reseller
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/imzhwk/.Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: /home/imzhwk/.Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 834 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 35 MB (+33842kb) [00:00:03]
+// [Engine Memory]: 815 MB (+703121kb) [00:00:03]
+// [GUI Memory]: 48 MB (+11649kb) [00:00:03]
+// [GUI Memory]: 66 MB (+16909kb) [00:00:04]
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: STOP_PROGRESS_DIALOG
+// cp:P (cl:JFrame):  Sourcing Tcl script '/tmp/tmp.zGBiDwmCQi/sh.tcl' : addNotify
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Sourcing Tcl script '/tmp/tmp.zGBiDwmCQi/sh.tcl'"); // cp:P (cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 841 MB. GUI used memory: 27 MB. Current time: 9/10/18 9:59:41 AM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 856 MB (+149kb) [00:00:20]
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Sep 10 09:59:55 2018] Launched synth_1... Run output will be captured here: /tmp/tmp.zGBiDwmCQi/project/temp_project.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 112 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // w:Y (v:H, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 29, false); // w:Y (v:H, cl:JFrame)
+// cp:P (cl:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// Elapsed time: 134 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cp:P)
