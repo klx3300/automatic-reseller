@@ -103,3 +103,4 @@ selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:
 // HMemoryUtils.trashcanNow. Engine heap size: 882 MB. GUI used memory: 42 MB. Current time: 9/10/18 9:56:02 AM CST
 // TclEventType: RUN_STEP_COMPLETED
 // TclEventType: RUN_COMPLETED
+// [GUI Memory]: 71 MB (+325kb) [00:18:58]

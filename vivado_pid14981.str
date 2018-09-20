@@ -94,3 +94,38 @@ selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthe
 // Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
 // Elapsed time: 134 seconds
 selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cp:P)
+// Elapsed time: 505 seconds
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton:JButton (NullPanel:JPanel, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 880 MB. GUI used memory: 56 MB. Current time: 9/10/18 10:12:42 AM CST
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 300, 95); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 384, 117); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 402, 128); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 448, 119); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 451, 132); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 467, 137); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 464, 139, false, false, false, false, true); // dQ:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 499, 141); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 513, 128); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 520, 120); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 538, 104); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 539, 109); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 542, 116); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 546, 119); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "8 warnings"); // i:l (JPanel:JComponent, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\ma/moneyv_reg[0] ) is unused and will be removed from module seller.. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 286 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// [GUI Memory]: 70 MB (+594kb) [00:18:30]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// Elapsed time: 199 seconds
+closeMainWindow("temp_project - [/tmp/tmp.zGBiDwmCQi/project/temp_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\ma/moneyv_reg[0] ) is unused and will be removed from module seller.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+// Elapsed time: 11 seconds
+closeMainWindow("temp_project - [/tmp/tmp.zGBiDwmCQi/project/temp_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)

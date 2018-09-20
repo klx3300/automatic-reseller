@@ -1,0 +1,11 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/sdcard/Xilinx/Vivado/2015.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x8e58a9) [0x7fd82ae318a9]
+/sdcard/Xilinx/Vivado/2015.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7fd82ae374f6]
+/sdcard/Xilinx/Vivado/2015.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x8e2523) [0x7fd82ae2e523]
+/usr/lib/libc.so.6(+0x37e00) [0x7fd857dede00]
+/sdcard/Xilinx/Vivado/2015.2/lib/lnx64.o/librdi_common.so(HI18N::Convert::In(wchar_t const*, wchar_t const*, std::string&, std::codecvt<wchar_t, char, __mbstate_t> const&)+0x28) [0x7fd858aae748]
+/sdcard/Xilinx/Vivado/2015.2/lib/lnx64.o/librdi_common.so(Java_ui_data_msgmgr_messagemanageri_getMessages+0x152) [0x7fd858b0ead2]
+[0x7fd81b9e3a61]
